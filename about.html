@@ -14,11 +14,58 @@
     />
     <link rel="icon" type="image/png" href="/images/logowithbackground.png" />
 
+    <!-- 這段是timeline的css -->
+    <!-- <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- 這段是timeline的css -->
+
     <style>
       .section-content {
         font-size: 14px;
         line-height: 2;
         font-weight: 300;
+      }
+
+      ul.timeline {
+        list-style-type: none;
+        position: relative;
+      }
+      ul.timeline:before {
+        content: " ";
+        background: #d4d9df;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+      }
+      ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+      }
+      ul.timeline > li:before {
+        content: " ";
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid #22c0e8;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+      }
+      .right-link {
+        float: right; /* 使用浮动使链接靠右 */
+      }
+      .left-link {
+        float: left; /* 使用浮动使链接靠右 */
       }
     </style>
   </head>
@@ -105,8 +152,8 @@
         </div>
       </div>
     </nav>
-    <section class="py-5 my-5">
-      <div class="container py-5">
+    <section class="pt-5 my-3">
+      <div class="container pt-5">
         <div class="row mb-2">
           <div class="col-md-8 col-xl-6 text-center mx-auto">
             <h2 class="display-6 fw-bold mb-5">
@@ -168,10 +215,72 @@
       </div>
     </section>
 
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h4>Timeline</h4>
+          <ul class="timeline">
+            <li>
+              <small style="text-align: right" class="right-link text-muted"
+                >17 October, 2023</small
+              >
+              <h5 target="_blank" href="" class="">Web Design</h5>
+              <p class="section-content">
+                To achieve my goal, I joined a "Full-stack Engineer Training
+                Program" for the last six months. I learned about making
+                websites, managing data, and other computer skills. I did this
+                to get better at my job and help more with digitaleducation.
+              </p>
+              <br />
+            </li>
+            <li>
+              <small style="text-align: right" class="right-link text-muted"
+                >09 December, 2014</small
+              >
+              <h5 target="_blank" href="" class="">Class Advisor</h5>
+              <p class="section-content">
+                I am also an online mathematics instructor collaborating with
+                OnePath Education Co., Ltd. Over the last few years, I've
+                noticed that decisions in both business and public matters are
+                increasingly based on data. In my previous jobs, I led projects
+                involving "Massive Open Online Courses (MOOCs)," which showed
+                how digital learning can help provide equal education
+                opportunities. I want to keep helping with digitaleducation to
+                make it more accessible for everyone.
+              </p>
+              <br />
+            </li>
+            <li>
+              <small style="text-align: right" class="right-link text-muted"
+                >17 October, 2023</small
+              >
+              <h5 target="_blank" href="" class="">Administrative Assistant</h5>
+              <p class="section-content">
+                I have 8 years of full-time work experience, including positions
+                as administrative staff at a Mathematics learning center, an
+                assistant at the Ministry of Foreign Affairs, and an
+                administrative secretary, as wellas roles in project execution
+                at the International College of Tzu Chi University. Presently, I
+                am also an online mathematics instructor collaborating with
+                OnePath Education Co., Ltd. Over the last few years, I've
+                noticed that decisions in both business and public matters are
+                increasingly based on data. In my previous jobs, I led projects
+                involving "Massive Open Online Courses (MOOCs)," which showed
+                how digital learning can help provide equal education
+                opportunities. I want to keep helping with digitaleducation to
+                make it more accessible for everyone.
+              </p>
+              <br />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
     <footer>
       <div class="container py-4 py-lg-5">
-        <hr />
+        <hr class="color: inherit" />
         <div class="text-center text-muted pt-3">
           Copyright 2024 © HannaHuang.&nbsp;All rights reserved.
         </div>
