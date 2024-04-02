@@ -6,16 +6,46 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>Hanna | 學習 | 接納現在的自己</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <title>Hanna | 隨筆 | 接納現在的自己</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Raleway:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap"
     />
     <link rel="icon" type="image/png" href="/images/logowithbackground.png" />
+
+    <style>
+      .card-title a {
+        color: #000;
+        text-decoration: none;
+        font-weight: 550;
+        font-size: 26px;
+        letter-spacing: 3px;
+      }
+
+      /* .card-title {
+        margin-bottom: 6%;
+      } */
+
+      .card-text {
+        font-size: 16px;
+        line-height: 2;
+        font-weight: 300;
+      }
+
+      .card-body {
+        margin-top: 0; /* 將卡片內容的上外邊距設置為0，使其靠近容器的上方 */
+      }
+
+      .img-fluid {
+        width: 100%;
+        height: auto;
+      }
+    </style>
   </head>
 
   <body>
+    <!-- navbar -->
     <nav
       class="navbar navbar-expand-md fixed-top navbar-shrink py-3 navbar-light"
       id="mainNav"
@@ -35,21 +65,19 @@
         <div class="collapse navbar-collapse" id="navcol-1">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About | 關於我</a>
+              <a class="nav-link" href="/about.html">About | 關於我</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="journal.html">Journal | 隨筆</a>
+              <a class="nav-link active" href="/journal.html">Journal | 隨筆</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="studynote.html"
-                >Study Notes | 學習</a
-              >
+              <a class="nav-link" href="/studynote.html">Study Notes | 學習</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tutor.html">家教諮詢</a>
+              <a class="nav-link" href="/tutor.html">家教諮詢</a>
             </li>
           </ul>
           <ul class="list-inline mb-0">
@@ -99,54 +127,46 @@
         </div>
       </div>
     </nav>
+    <!-- header -->
+    <header class="pt-5"></header>
 
-    <header class="pt-5">
-      <div class="container pt-4 pt-xl-5">
-        <div class="row pt-5">
-          <div class="col-md-8 text-center text-md-start mx-auto">
-            <div class="text-center">
-              <h4 class="display-6 fw-bold mb-5">
-                <span class="underline">學習</span>&nbsp;與人生的&nbsp;一點<span
-                  class="underline"
-                  >過程</span
-                >。
-              </h4>
-              <p class="fs-5 text-muted mb-5">
-                Metus quisque ultricies vehicula proin, magna nullam.
+    <!-- blog section -->
+    <section class="py-3">
+      <div class="container">
+        <div class="row g-0">
+          <div class="col-lg-8 mx-auto my-5">
+            <div class="card-body">
+              <p class="card-text mt-0 mb-0">
+                <small class="text-muted fs-6">2024.4.1</small>
               </p>
-              <form
-                class="d-flex justify-content-center flex-wrap"
-                method="post"
-                data-bs-theme="light"
-              >
-                <div class="shadow-lg mb-3">
-                  <input
-                    class="form-control"
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
+              <h2 class="card-title">
+                <a>[電影觀後感]·再見機器人·關於愛與重生</a>
+              </h2>
+              <!-- 圖片 -->
+              <div class="row g-0">
+                <div class="card my-5">
+                  <img
+                    src="/images/S__7610394_0.jpg"
+                    class="img-fluid rounded-start"
+                    alt="Thumbnail"
                   />
                 </div>
-                <div class="shadow-lg mb-3">
-                  <button class="btn btn-primary" type="submit">
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-12 col-lg-10 mx-auto">
-            <div class="text-center position-relative">
-              <img
-                class="img-fluid"
-                src="assets/img/illustrations/meeting.svg"
-                style="width: 800px"
-              />
+                <p class="card-text">
+                  原以為是一部告別對象的電影，但看完後更感受，這是一個與自己道別的故事。我們都在自己的故事裡面，重生了好幾次。<br /><br />
+                  生命中總有幾個曾經的對象，毫無預警的降臨生活，幸福自然而然地走進生活中。我們都拍了一整個滿滿相簿那種臉貼臉、肩並肩的照片，就像怎麼樣也看不膩彼此一樣。<br /><br />
+                  但也一個轉眼間不小心，就有一方被遺落在原地。可能是太粗心了、太快樂了，我們沒有留意在幸福中會造成分離的那些陷阱，有一方被留下，而離開的那方也沒有那麼積極的尋求解方。我們都以為還有時間、還有等待的機會。
+                  我們在生活中嘗試新事物、尋求其他刺激、我們交了更多朋友。我們踏入一段可能也沒有結果的邂逅、我們和幾個不那麼相近的偶遇相處。我們在帶著一點殘缺的狀態下成為其他人的依靠，而最終又回到一個人。<br /><br />
+                  我們在夢裡回了好幾次那個快樂的場景，但醒來之後發現一切如常，現實更像冰天雪地、而不是那充滿安全感的花園。你往回走的時刻，我已帶著殘破的心情離開。<br /><br />
+                  最終我們都在自己的故事裡重新來過，踏入一個有點像、也不那麼相同的循環。但這次我會更珍惜、也更小心。
+                  我最喜歡的一幕，是最後小狗在沙灘上替機器人抹上防護油的那一刻。在和你的故事中留下的遺憾不會消失，但下一次我會記得牽他牽得更緊、走的更慢。<br /><br />
+                  再見機器人，可能在更多平行的時空裡我們有機會再見彼此，但現在這個宇宙，我們與對方告別、與那個愛著你的自己說再見。<br /><br />
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
     <!-- footer -->
     <footer>
@@ -157,7 +177,8 @@
         </div>
       </div>
     </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/startup-modern.js"></script>
+
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/startup-modern.js"></script>
   </body>
 </html>
